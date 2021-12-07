@@ -1,2 +1,0 @@
-# MiSegundoRepo-Marco
-Ejemplo
