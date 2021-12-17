@@ -16,9 +16,9 @@
  }
 
 .partemedia {
-
     display: flex;
     justify-content: space-between;
+    width: 600px;
 }
 
 .imag_a {
@@ -34,6 +34,7 @@
 .soloimag {
 justify-content: space-around;
     margin-top: 12px;
+    height: 100px;
 }
 
 .text { 
@@ -52,4 +53,16 @@ justify-content: space-around;
 display: flex;
 justify-content: space-between;
 
+}
+
+.trabajos{
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    border: 100px;
+    flex-direction: column;
 }
