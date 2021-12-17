@@ -1,9 +1,0 @@
-div {
-border: 1px black solid;
-width: 100px;
-height: 50px;
-padding: 10px 0px 10px 50px; 
-}
-
-/*La organización del tamaño para el modelo de caja es en sentido de las manecillas del reloj.
-/*El padding es interno y el margin es externo.
