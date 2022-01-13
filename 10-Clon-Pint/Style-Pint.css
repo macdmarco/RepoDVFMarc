@@ -211,11 +211,63 @@ background-color: transparent;
     margin: 0px 8px 16px;
     cursor: pointer;
     border-radius: 30px;
+    
 }
 
 .graf-cont:hover{
     opacity: .5;
 }
+
+.img-cont{
+    max-width: 236px;
+    margin: 0px 8px 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    position: absolute;
+
+}
+
+
+
+/* Botones invisibles (hacer hover con clase invisble) */
+
+.guardar{
+    height: 48px;
+    width: 60px;
+    background-color: #c8232c;
+    border-radius: 24px;
+    border-style: none;
+    color: #efefef;
+    font-weight: bold;
+    position: relative;
+    left: 170px; top: 5px;
+}
+
+.link{
+    height: 48px;
+    width: 60px;
+    background-color: white;
+    border-radius: 24px;
+    border-style: none;
+    color: gray;
+    font-weight: bold;
+    position: relative;
+    top: 300px; bottom: 5px; right: 30px;
+}
+
+.send{
+    height: 48px;
+    width: 60px;
+    background-color: white;
+    border-radius: 24px;
+    border-style: none;
+    color: gray;
+    font-weight: bold;
+    position: relative;
+    top: 300px; left: 50px;
+
+}
+
 
 /* Media Queris--- Falta acomodar las imagenes en columnas de 2 */
 

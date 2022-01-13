@@ -1,0 +1,725 @@
+html{
+    height: 100%;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cuerpo{
+    height: 100%;
+    width: 1440px;
+    margin: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bar-nav{
+    height: 60px;
+    width: 1440px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: white;
+
+}
+
+a{
+    text-decoration: none;
+    color: #3c4043;
+    padding: 0 4px;
+    padding-left: 30px;
+    align-content: center;
+    margin-top: 15px;
+    font-size: 14px;
+    border: transparent;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.links-barnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-color: transparent;
+}
+
+.men-barnav{
+    height: 28px;
+}
+
+.men-barnav:hover{
+    opacity: .5;
+}
+
+.per-barnav{
+    height: 32px;
+}
+
+.per-barnav:hover{
+    opacity: .5;
+}
+
+.logo-go{
+    height: 92px;
+    width: 272px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.google{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 290px;
+    width: 1440px;
+    background-color: white;
+}
+
+.buscador{
+    height: 140px;
+    width: 1440px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.elementos-buscador{
+    height: 44px;
+    width: 582px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+
+.elementos-buscador:hover{
+    opacity: .5;
+    border: 5px solid #dfe1e5;
+}
+
+input{
+    height: 34px;
+    width: 95%;
+    border-color: transparent;
+    color: rgb(218, 220, 224);
+}
+
+.lupa{
+    height: 24px;
+    width: 24px;
+}
+
+.mic{
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+
+.inputs-buscar{
+    height: 58px;
+    width: 584px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buscar-google{
+    height: 36px;
+    width: 153px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    text-align: center;
+    border-color: transparent;
+    
+}
+
+.buscar-google:hover{
+    border-color: gray
+
+}
+
+.Suerte{
+    height: 36px;
+    width: 167px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    text-align: center;
+}
+
+.Suerte:hover{
+    border-color: gray
+}
+
+.ofrecido{
+    height: 28px;
+    width: 1440px;
+    color: #3c4043;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    font-size: small;
+    font-family: arial,sans-serif;
+}
+
+.of-es{
+    display: inline-block;
+    height: 28px;
+    width: 389px;
+}
+
+
+.esp{
+    width: 146px;
+    color: #1a0dab;
+}
+
+.tal{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: Arial, sans-serif;
+}
+
+.Mex{
+    height: 48px;
+    width: 1440px;
+    background-color: #dadce0;
+    color: #70757a;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+}
+.pie{
+    height: 48px;
+    width: 1440px;
+    background-color: #dadce0;
+    color: #70757a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.izq{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+
+}
+
+.der{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    color: #70757a;
+}
+
+/* Media Querys */
+
+@media only screen and (max-width: 320px) {
+    
+    html{
+        height: 100%;
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cuerpo{
+        height: 100%;
+        width: 320px;
+        margin: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .bar-nav{
+        height: 60px;
+        width: 320px;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        background-color: white;
+    
+    }
+
+    .google{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 290px;
+        width: 320px;
+        background-color: white;
+    }
+
+    .buscador{
+        height: 140px;
+        width: 320px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .elementos-buscador{
+        height: 44px;
+        width: 320px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 24px;
+        border: 1px solid #dfe1e5;
+    }
+
+    .inputs-buscar{
+        height: 58px;
+        width: 320px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .ofrecido{
+        height: 28px;
+        width: 320px;
+        color: #3c4043;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        font-size: x-small;
+        font-family: arial,sans-serif;
+    }
+    
+    .tal{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-family: Arial, sans-serif;
+        font-size: x-small;
+    }
+
+    .Mex{
+        height: 48px;
+        width: 320px;
+        background-color: #dadce0;
+        color: #70757a;
+        font-size: x-small;
+    }
+    .pie{
+        height: 70px;
+        width: 320px;
+        background-color: #dadce0;
+        color: #70757a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: x-small;
+    }
+
+    a{
+        text-decoration: none;
+        color: #3c4043;
+        padding: 0 4px;
+        padding-left: 30px;
+        align-content: center;
+        margin-top: 15px;
+        font-size: 9px;
+        border: transparent;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 375px) {
+    
+        html{
+            height: 100%;
+            width: 375px;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .cuerpo{
+            height: 100%;
+            width: 375px;
+            margin: 5px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .bar-nav{
+            height: 60px;
+            width: 375px;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            background-color: white;
+        
+        }
+    
+        .google{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 290px;
+            width: 375px;
+            background-color: white;
+        }
+    
+        .buscador{
+            height: 140px;
+            width: 375px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+    
+        .elementos-buscador{
+            height: 44px;
+            width: 375px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 24px;
+            border: 1px solid #dfe1e5;
+        }
+    
+        .inputs-buscar{
+            height: 58px;
+            width: 375px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    
+        .ofrecido{
+            height: 28px;
+            width: 375px;
+            color: #3c4043;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            background-color: white;
+            font-size: x-small;
+            font-family: arial,sans-serif;
+        }
+        
+        .tal{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            font-family: Arial, sans-serif;
+            font-size: x-small;
+        }
+    
+        .Mex{
+            height: 48px;
+            width: 375px;
+            background-color: #dadce0;
+            color: #70757a;
+            font-size: x-small;
+        }
+        .pie{
+            height: 70px;
+            width: 375px;
+            background-color: #dadce0;
+            color: #70757a;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            font-size: x-small;
+        }
+    
+        a{
+            text-decoration: none;
+            color: #3c4043;
+            padding: 0 4px;
+            padding-left: 30px;
+            align-content: center;
+            margin-top: 15px;
+            font-size: 9px;
+            border: transparent;
+        }
+}
+
+@media only screen and (max-width: 425px) {
+
+    html{
+        height: 100%;
+        width: 425px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cuerpo{
+        height: 100%;
+        width: 425px;
+        margin: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .bar-nav{
+        height: 60px;
+        width: 425px;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        background-color: white;
+    
+    }
+
+    .google{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 290px;
+        width: 425px;
+        background-color: white;
+    }
+
+    .buscador{
+        height: 140px;
+        width: 425px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .elementos-buscador{
+        height: 44px;
+        width: 425px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 24px;
+        border: 1px solid #dfe1e5;
+    }
+
+    .inputs-buscar{
+        height: 58px;
+        width: 425px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .ofrecido{
+        height: 28px;
+        width: 425px;
+        color: #3c4043;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        font-size: x-small;
+        font-family: arial,sans-serif;
+    }
+    
+    .tal{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-family: Arial, sans-serif;
+        font-size: x-small;
+    }
+
+    .Mex{
+        height: 48px;
+        width: 425px;
+        background-color: #dadce0;
+        color: #70757a;
+        font-size: x-small;
+    }
+    .pie{
+        height: 100px;
+        width: 425px;
+        background-color: #dadce0;
+        color: #70757a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: x-small;
+    }
+
+    a{
+        text-decoration: none;
+        color: #3c4043;
+        padding: 0 4px;
+        padding-left: 30px;
+        align-content: center;
+        margin-top: 15px;
+        font-size: 11px;
+        border: transparent;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    html{
+        height: 100%;
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cuerpo{
+        height: 100%;
+        width: 768px;
+        margin: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .bar-nav{
+        height: 60px;
+        width: 768px;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        background-color: white;
+    
+    }
+
+    .google{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 290px;
+        width: 768px;
+        background-color: white;
+    }
+
+    .buscador{
+        height: 140px;
+        width: 768px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .elementos-buscador{
+        height: 44px;
+        width: 768px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 24px;
+        border: 1px solid #dfe1e5;
+    }
+
+    .inputs-buscar{
+        height: 58px;
+        width: 768px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .ofrecido{
+        height: 28px;
+        width: 768px;
+        color: #3c4043;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        font-size: x-small;
+        font-family: arial,sans-serif;
+    }
+    
+    .tal{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-family: Arial, sans-serif;
+        font-size: x-small;
+    }
+
+    .Mex{
+        height: 48px;
+        width: 768px;
+        background-color: #dadce0;
+        color: #70757a;
+        font-size: x-small;
+    }
+    .pie{
+        height: 50px;
+        width: 768px;
+        background-color: #dadce0;
+        color: #70757a;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: x-small;
+    }
+
+    a{
+        text-decoration: none;
+        color: #3c4043;
+        padding: 0 4px;
+        padding-left: 30px;
+        align-content: center;
+        margin-top: 15px;
+        font-size: 9px;
+        border: transparent;
+    }
+}
