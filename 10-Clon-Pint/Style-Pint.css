@@ -230,8 +230,11 @@ background-color: transparent;
 
 
 /* Botones invisibles (hacer hover con clase invisble) */
+/* Te quedaste intentando hacer el hover de los botones dentro de las img */
 
 .guardar{
+    display: block;
+    cursor: pointer;
     height: 48px;
     width: 60px;
     background-color: #c8232c;
@@ -243,7 +246,14 @@ background-color: transparent;
     left: 170px; top: 5px;
 }
 
+.guardar:hover{
+    display: contents;
+
+}
+
 .link{
+    display: none;
+    cursor: pointer;
     height: 48px;
     width: 60px;
     background-color: white;
@@ -252,10 +262,12 @@ background-color: transparent;
     color: gray;
     font-weight: bold;
     position: relative;
-    top: 300px; bottom: 5px; right: 30px;
+    top: 270px; bottom: 100px; right: 30px;
 }
 
 .send{
+    display: none;
+    cursor: pointer;
     height: 48px;
     width: 60px;
     background-color: white;
