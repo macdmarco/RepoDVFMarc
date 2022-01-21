@@ -18,7 +18,7 @@ a{
 
 
 nav{
-    width: 1300px;
+    width: 1350px;
     height: 100px;
     background-color: #1c003b;
     margin: 5px 50px 5px 50px;
@@ -30,7 +30,7 @@ nav{
 
 }
 
-span{
+.nombre{
     font-size: 40px;
     margin: 25px 0px 25px 100px;
     color: white;
@@ -70,12 +70,226 @@ span{
 
 /* Main Parte Media */
 
-main{
+/* Recuerda camabiar el height de pla section presentación cuando hagas media querys */
+
+.presentacion{
     margin-top: 150px;
-    height: 700px;
+    height: 400px;
     width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .img-profile{
-    max-width: 25em;
-    max-height: 25em;
+    max-width: 320px;
+    max-height: 320px;
+    margin-left: 50px;
 }
+
+.caja-apt{
+    width: 320px;
+    height: 320px;
+    background-color: #1c003b;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+
+}
+
+.caja-span-a{
+    width: 210px;
+    height: 210px;
+    background-color: #1c003b;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.aptitudes{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.entusiasta{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.caja-edu{
+    width: 320px;
+    height: 320px;
+    background-color: #1c003b;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.caja-span-e{
+    width: 210px;
+    height: 210px;
+    background-color: #1c003b;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.educacion{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.master{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+.maestria{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.mi{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+
+}
+.caja-sobre{
+    width: 320px;
+    height: 320px;
+    background-color: #1c003b;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.caja-span-s{
+    width: 210px;
+    height: 210px;
+    background-color: #1c003b;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.sobre{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.nacido{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Section habilidades */
+
+.titulo-habilidades{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 60px;
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.span-habilidades{
+    width: 440px;
+    height: 60px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    margin-bottom: 5px;
+    background-color:#4b0374;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.section-habilidades{
+    margin-top: 10px;
+    height: 400px;
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caja-html{
+    width: 220px;
+    height: 220px;
+    background-color: #4b0374;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+.caja-css3{
+    width: 220px;
+    height: 220px;
+    background-color: #4b0374;
+    border-radius: 15px;
+}
+.caja-javascript{
+    width: 220px;
+    height: 220px;
+    background-color: #4b0374;
+    border-radius: 15px;
+}
+.caja-react{
+    width: 220px;
+    height: 220px;
+    background-color: #4b0374;
+    border-radius: 15px;
+}
+.caja-wordpress{
+    width: 220px;
+    height: 220px;
+    background-color: #4b0374;
+    border-radius: 15px;
+}
+.caja-finalcut{
+    width: 220px;
+    height: 220px;
+    background-color: #4b0374;
+    border-radius: 15px;
+}
+
+/* Pendientes -- Hover de los botones de github y linkedin */
