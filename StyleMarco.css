@@ -1,0 +1,826 @@
+/* Etiquetas principales */
+
+body{
+    background-color: #bc4ed8;
+    height: 100%;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #1c003b;
+}
+
+/* Barra de Navegación */
+
+
+nav{
+    width: 1350px;
+    height: 100px;
+    background-color: #1c003b;
+    margin: 5px 50px 5px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 30px;
+    position: fixed;
+
+}
+
+.nombre{
+    font-size: 40px;
+    margin: 25px 0px 25px 100px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-links-barnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.links-barnav{
+    width: 100px;
+    height: 90px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 45%;
+    border-color: transparent;
+    background-color: white;
+
+}
+
+.botones-barnav{
+    width: 90px;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 45%;
+    border-color: transparent;
+    background-color: white;
+}
+
+.botones-barnav:hover{
+    cursor: pointer;
+    background-color: #9a2bcc;
+}
+
+/* Main Parte Media */
+
+/* Recuerda camabiar el height de la section presentación cuando hagas media querys */
+
+.section-presentacion{
+    margin-top: 150px;
+    margin-left: 50px;
+    height: 400px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-profile{
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+    
+}
+
+.cajas-presentacion{
+    width: 320px;
+    height: 320px;
+    background-color: #1c003b;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+}
+
+.caja-span-a{
+    width: 210px;
+    height: 210px;
+    background-color: #1c003b;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.aptitudes{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.entusiasta{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.caja-span-e{
+    width: 210px;
+    height: 210px;
+    background-color: #1c003b;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.educacion{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.master{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+.maestria{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.mi{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.caja-span-s{
+    width: 210px;
+    height: 210px;
+    background-color: #1c003b;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.sobre{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.nacido{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Section habilidades */
+
+.titulo-habilidades{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 60px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.span-habilidades{
+    width: 440px;
+    height: 60px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    margin-bottom: 5px;
+    background-color:#4b0374;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.section-habilidades{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 240px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cajas-habilidades{
+    width: 210px;
+    height: 210px;
+    background-color: #4b0374;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.html-logo{
+    max-width: 190px;
+    max-height: 190px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caja-css3{
+    width: 210px;
+    height: 210px;
+    background-color: #4b0374;
+    border-radius: 15px;
+}
+
+.css3-logo{
+    max-width: 190px;
+    max-height: 190px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.caja-javascript{
+    width: 210px;
+    height: 210px;
+    background-color: #4b0374;
+    border-radius: 15px;
+}
+
+.javascript-logo{
+    max-width: 190px;
+    max-height: 190px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.caja-react{
+    width: 210px;
+    height: 210px;
+    background-color: #4b0374;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span-react{
+    height: 40px;
+    width: 120px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.react-logo{
+    max-width: 160px;
+    max-height: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.caja-wordpress{
+    width: 210px;
+    height: 210px;
+    background-color: #4b0374;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span-wordpress{
+    height: 20px;
+    width: 120px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 5px;
+    
+}
+
+.wordpress-logo{
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.caja-finalcut{
+    width: 210px;
+    height: 210px;
+    background-color: #4b0374;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span-finalcutpro{
+    height: 20px;
+    width: 120px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.finalcut-logo{
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+
+/* Section Contáctame */
+
+.titulo-contactame{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 60px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.span-contactame{
+    width: 440px;
+    height: 60px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    margin-bottom: 5px;
+    background-color:#4b0374;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.section-correo-telefono{
+    height: 60px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.cajas-contactame{
+    width: 480px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.caja-correo{
+    width: 220px;
+    height: 90px;
+    background-color: #4b0374;
+    margin: 5px 10px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.icono-correo{
+    width: 40px;
+    height: 40px;
+}
+
+.span-mavm{
+    height: 40px;
+    width: 120px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 45px;
+}
+
+.caja-telefono{
+    width: 220px;
+    height: 90px;
+    background-color: #4b0374;
+    margin: 5px 10px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.icono-telefono{
+    width: 40px;
+    height: 40px;
+}
+
+.span-5255{
+    height: 40px;
+    width: 120px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.pie{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 60px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cajas-pie{
+    width: 420px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icono-laptop{
+    width: 20px;
+    height: 20px;
+}
+
+.span-constancia{
+    height: 20px;
+    width: 420px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Media Querys */
+
+@media only screen and (max-width: 1024px) {
+    body{
+        background-color: #bc4ed8;
+        height: 100%;
+        width: 974px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    nav{
+        width: 930px;
+        height: 100px;
+        background-color: #1c003b;
+        margin: 5px 5px 5px 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-radius: 30px;
+        position: fixed;
+    
+    }
+
+    .section-presentacion{
+        margin-top: 150px;
+        height: 800px;
+        width: 700px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .img-profile{
+        max-width: 280px;
+        max-height: 280px;
+        margin-left: 5px;
+    }
+    .cajas-presentacion{
+        width: 300px;
+        height: 300px;
+        background-color: #1c003b;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    
+    }
+    .titulo-habilidades{
+        margin-top: 10px;
+        margin-left: 5px;
+        height: 60px;
+        width: 930px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .section-habilidades{
+        margin-top: 10px;
+        height: 480px;
+        width: 930px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 5px;
+    }
+    .cajas-habilidades{
+        width: 210px;
+        height: 210px;
+        background-color: #4b0374;
+        border-radius: 15px;
+        margin-left: 5px;
+    }
+    .titulo-contactame{
+        margin-top: 10px;
+        margin-left: 5px;
+        height: 60px;
+        width: 930px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .section-correo-telefono{
+        height: 60px;
+        width: 930px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left:5px;
+        margin-bottom: 50px;
+    }
+
+    .pie{
+        margin-top: 10px;
+        margin-left: 5px;
+        height: 60px;
+        width: 930px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: #bc4ed8;
+        height: 100%;
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    nav{
+        width: 718px;
+        height: 100px;
+        background-color: #1c003b;
+        margin-left: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-radius: 30px;
+        position: fixed;
+    }
+
+    .nombre{
+        font-size: 24px;
+        margin: 25px 0px 25px 50px;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .section-presentacion{
+        margin-top: 150px;
+        height: 450px;
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .img-profile{
+        max-width: 180px;
+        max-height: 180px;
+        margin: 10px;
+    }
+    .cajas-presentacion{
+        width: 200px;
+        height: 200px;
+        background-color: #1c003b;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin-left: 75px;
+    }
+
+    .caja-span-a{
+        width: 160px;
+        height: 160px;
+        background-color: #1c003b;
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    
+    }
+    
+    .aptitudes{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    .entusiasta{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        text-align: left;
+    
+    }
+    
+    .caja-span-e{
+        width: 160px;
+        height: 160px;
+        background-color: #1c003b;
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    .educacion{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    
+    .master{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        text-align: left;
+        margin-top: 10px;
+    
+    }
+    
+    .maestria{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        text-align: left;
+        margin-top: 15px;
+    }
+    
+    .mi{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        text-align: left;
+        margin-top: 15px;
+    }
+    
+    .caja-span-s{
+        width: 160px;
+        height: 160px;
+        background-color: #1c003b;
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    .sobre{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+    
+    .nacido{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .titulo-habilidades{
+        margin-top: 10px;
+        
+        height: 60px;
+        width: 718px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .section-habilidades{
+        margin-top: 10px;
+        height: 480px;
+        width: 718px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .cajas-habilidades{
+        width: 210px;
+        height: 210px;
+        background-color: #4b0374;
+        border-radius: 15px;
+        
+    }
+    .titulo-contactame{
+        margin-top: 10px;
+        
+        height: 60px;
+        width: 718px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .section-correo-telefono{
+        height: 60px;
+        width: 718px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+        
+        margin-bottom: 50px;
+    }
+
+    .pie{
+        margin-top: 10px;
+        
+        height: 60px;
+        width: 718px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
