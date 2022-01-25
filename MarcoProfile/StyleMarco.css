@@ -373,14 +373,6 @@ nav{
     margin-top: 25px;
 }
 
-/* Pendientes
-
--- Hover de los botones de github y linkedin 
---Revisar la suma de las img en los logos de habilidades; ya que se esta arojando un scroll lateral
---Buscar y bajar imgs del tamaño correcto para la section habilidades
-
-
-*/
 
 /* Section Contáctame */
 
@@ -635,18 +627,17 @@ nav{
         width: 718px;
         height: 100px;
         background-color: #1c003b;
-        margin: 5px 0px 5px 0px;
+        margin-left: 5px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         border-radius: 30px;
         position: fixed;
-    
     }
 
     .nombre{
         font-size: 24px;
-        margin: 25px 0px 25px 100px;
+        margin: 25px 0px 25px 50px;
         color: white;
         font-family: 'Open Sans', sans-serif;
     }
